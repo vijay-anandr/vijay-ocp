@@ -13,7 +13,7 @@ public class VijayHelloWorldforOCP {
 		    DateTimeFormatter CurrDateTimeFormat = DateTimeFormatter.ofPattern("MM-dd-yyyy HH:mm:ss");
 
 		    String CurrDateTimeFormatted = CurrDateTime.format(CurrDateTimeFormat);
-		    System.out.println("CurrDateTimeFormatted: " + CurrDateTimeFormatted);
+		    System.out.println("Current Sytem Date Time Formatted: " + CurrDateTimeFormatted);
 	}
 
 }
